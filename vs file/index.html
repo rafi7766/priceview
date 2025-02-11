@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAFI DESIGNER</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="n.js">
+  <link rel="shortcut icon" href="rlogo.png" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  <nav class="nevber">
+    <a href="#" class="logo">RAFI DESIGNER</a>
+
+    <!-- Hamburger icon for mobile view -->
+    <div class="hamburger" id="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <!-- Navigation links -->
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Website">Website</a></li>
+      <li><a href="#services">Locetion</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#footer">footer</a></li>
+
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="home-info">
+      <h1>MD RAFI ISLAM</h1>
+      <h2>I'm a web designer</h2>
+      <p>A dedicated graphic designer with over 2 years of experience turning ideas into visually stunning designs. My
+        mission is to help businesses, brands, and individuals shine through creative, high-quality graphic solutions.
+        I’m excited to bring your ideas to life and help you achieve your design goals. Whether you need a complete
+        brand overhaul or just a single design project, I’m here to help. Let’s connect and get started on making your
+        vision a reality! Feel free to reach out to me with any questions or project details. I look forward to working
+        with you!</p>
+      <a href="#" class="btn">HIRE RAFI</a>
+      <div class="btn-sci">
+        <div class="sci">
+          <a href="#"><i class='bx bxl-messenger'></i></a>
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-whatsapp'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
+          <img src="r.png" alt="MD Rafi Islam">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="About" id="About">
+    <br><br><br><br>
+    <div class="up-text">
+      <h2>I do amazing things for clients</h2>
+
+    </div>
+
+    <div class="container">
+
+      <div class="card">
+        <div class="icon"><img src="pen.png" alt="Photographer Icon"></div>
+        <h3>GRAPHIC DESIGNER</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed
+          sem.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><img src="pc.png" alt="Web Designer Icon"></div>
+        <h3>WEB DESIGNER</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed
+          sem.</p>
+      </div>
+      <div class="card">
+        <div class="icon"><img src="coding.png" alt="3D Artist Icon"></div>
+        <h3>CODER</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed
+          sem.</p>
+      </div>
+
+    </div>
+
+  </section>
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+  </script>
+  <hr>
+
+  <section class="Website" id="Website">
+    <div class="up-text">
+      <h2>Websites created by me</h2>
+      <div class="content-wrapper">
+        <div class="text">
+          <h2>E-comarch website</h2>
+        </div>
+        <div class="image-container">
+          <img src="https://imagizer.imageshack.com/img923/2340/P5zPB0.png">
+          <button class="more-img">more img</button>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+
+  </section>
+</body>
+<br><br><br><br>
+<section id="footer">
+<footer>
+  <div class="div-last">
+    <a class="a-last" href="#">
+      <i class='bx bx-chevrons-up'></i>
+      <h1>UP</h1>
+    </a>
+  </div>
+  <div class="footer-container">
+    <div class="last-2">
+      <h2>Quick Links</h2>
+      <hr>
+      <a href="">
+        <h3>Portfolio</h3>
+      </a>
+      <a href="">
+        <h3>About</h3>
+      </a>
+      <a href="">
+        <h3>Location</h3>
+      </a>
+      <a href="">
+        <h3>Contact</h3>
+      </a>
+    </div>
+    <div class="div-3">
+      <h2>RAFI Graphic Design</h2>
+      <hr>
+      <a href="#">
+        <h3>Website 1</h3>
+      </a>
+      <a href="#">
+        <h3>Website 2</h3>
+      </a>
+      <a href="#">
+        <h3>Website 3</h3>
+      </a>
+    </div>
+    <div class="div-4">
+      <h2>More</h2>
+      <hr>
+      <h3>BD Number</h3>
+      <p>+88013043083**</p>
+      <br><br>
+      <h3 class="email">Email</h3>
+      <p><a class="mailto" href="mailto:info.rafijul7766@gmail.com">info.rafijul7766@gmail.com</a></p>
+    </div>
+  </div>
+  <p>&copy; RAFI DESIGNER</p>
+</footer>
+</section>
+
+
+</html>
